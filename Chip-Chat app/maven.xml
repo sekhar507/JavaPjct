@@ -1,0 +1,51 @@
+<project default="default"
+   xmlns:j="jelly:core"
+   xmlns:u="jelly:util"
+   xmlns:ant="jelly:ant"
+   xmlns:deploy="deploy">
+
+	<goal name="default">
+		<attainGoal name="war"/>
+		<attainGoal name="site2"/>
+	</goal>
+
+	<goal name="site2">
+		<attainGoal name="site"/>
+		<j:set var="maven.docs.src" value="xdoc_kr"/>
+		<j:set var="maven.docs.dest" value="${maven.build.dir}/docs/kr"/>
+		<j:set var="maven.docs.outputencoding" value="euc-kr"/>
+		<attainGoal name="site"/>
+	</goal>
+
+	<postGoal name="war:webapp">
+		<ant:echo>Post Goal of [war:webapp]</ant:echo>
+
+		<ant:echo>## Copy applet class files</ant:echo>
+
+		<j:if test="${maven.war.webapp.dir==null}">
+			<j:set var="maven.war.webapp.dir" value="${maven.build.dir}/${pom.artifactId}"/>
+		</j:if>
+
+		<ant:echo>from ${maven.build.dest} to ${maven.war.webapp.dir}</ant:echo>
+
+		<ant:copy todir="${maven.war.webapp.dir}">
+			<ant:fileset dir="${maven.build.dest}"
+				includes="chipchatapplet/**"/>
+		</ant:copy>
+
+
+		<ant:echo>## Change Encoding..${charsetname}</ant:echo>
+
+		<j:if test="${charsetname==null}">
+			<ant:echo>'charsetname' property is not setted.</ant:echo>
+			<j:set var="charsetname" value="UTF-8"/>
+		</j:if>
+		<ant:echo>Change Encoding to ${charsetname}</ant:echo>
+
+		<ant:replace dir="${maven.war.webapp.dir}" token="__CHARSETNAME__" value="${charsetname}" includes="**/*.jsp,**/*.js"/>
+
+		<ant:replace dir="${maven.war.webapp.dir}" token="__VERSION__" value="${pom.currentVersion}" includes="**/*.jsp,**/*.js,**/*.properties"/>
+
+	</postGoal>
+
+</project>

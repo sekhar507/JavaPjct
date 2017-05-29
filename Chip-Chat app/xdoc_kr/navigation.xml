@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<project name="chipchat">
+  <title>Chipchat - 채팅프로그램</title>
+
+  <body>
+   	<links>
+		<item name="English Site" href="/../index.html"/>
+	</links>
+    <menu name="Chipchat">
+		<item name="소개"				href="/index.html"/>
+		<item name="Document"				href="/document.html"/>
+		<item name="다운로드"				href="/download.html"/>
+		<item name="데모"					href="/demo.html"/>
+		<item name="Screenshots"			href="/screenshots.html"/>
+		<item name="Forum and ..."			href="/forum.html"/>
+		<!--
+		<item name="Faq"					href="/faq.html"/>
+		<item name="Tips"					href="/tips.html"/>
+		-->
+    </menu>
+
+    <footer>
+		<a href="http://sourceforge.net/projects/chipchat/">
+			<img border="0" alt="SourceForge" src="http://sourceforge.net/sflogo.php?group_id=61626&amp;type=5" align="right"/>
+		</a>
+    </footer>
+  </body>
+</project>

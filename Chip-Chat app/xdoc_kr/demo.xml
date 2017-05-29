@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<document>
+  <properties>
+    <title>Demo.</title>
+    <author email="ljspring@daum.net">이재춘</author>
+  </properties>
+
+  <body>
+    <section name="Demo">
+      <p>
+		<a href="http://math.uos.ac.kr/chipchat/" target="_blank">여기를 눌러 데모 사이트로....</a>
+      </p>
+    </section>
+</body>
+</document>

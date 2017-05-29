@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<document>
+
+  <properties>
+    <title>Home</title>
+    <author email="ljspring@daum.net">이재춘</author>
+  </properties>
+
+  <body>
+    <section name="Introduction">
+		<p>
+		Chipchat은 Java와 Javascript로 만들어진 웹 채팅 프로그램입니다. 이 프로그램은 단독으로 실행할 수 없고, Tomcat과 같은 Jsp컨테이너가 필요합니다. 대부분의 PHP채팅프로그램처럼 Http Refresh를 사용하여 화면을 갱신하는 것이 아니라, applet은 통신을하고 자바스크립트를 사용하여 화면을 업데이트 하여 화면이 매끄럽습니다. 그리고 Applet을 사용하기 때문에 어떤 프로그램의 설치도 필요하지 않습니다. 또한 웹브라우저가 Applet과 CSS2.1을 잘 지원한다면 운영체제나 브라우저에 상관하지 않고 사용할 수 있습니다.
+		</p>
+
+		<p>Last version : v1.0 Beta2 ( Jun 30, 2003 )</p>
+
+		<p><br/></p>
+		<p>
+		Applet이 서버와 통신하는 방식을 두가지 제공합니다. 서버상에 포트를 열어서 접속하여 통신하는 방법과 JavaServer Page를 접속는 통신하는 방법이 있습니다. 기본적으로 첫번째로 설정되어 있지만, Firewall또는 기타 이유로 서버상의 새로운 포트를 열어 접속하는 방법이 제한되는 경우 두번째 방법을 사용하여 웹 포트를 사용하여 통신을 하실 수 있습니다. 
+		</p>
+		<p><br/></p>
+
+		<p> Chipchat을 만드는데는 Javascript, Live Connection, Applet의 기술이 사용되었습니다. 또한 빌드 툴로는 Maven을 사용하였습니다. </p>
+
+		<p><br/></p>
+
+		<p>현재까지는 다음과 같은 기능을 갖고 있습니다.</p>
+		<ol>
+			<li>채널을 선택하여 들어갈 수 있습니다.</li>
+			<li>채팅방에서 '내쫏기', '조용히시키기', '방장권한주기', '방 정보 바꾸기'의 방장기능.</li>
+			<li>User Icon기능. </li>
+			<li>이모티콘 기능(예로 유저가 &quot;/^^/&quot;라 입력하면 이것은 &quot; &lt;img src=&#039;image/smile.gif&#039;&gt;&quot;로 바뀌게 됩니다.</li>
+		</ol>
+
+		<p><br/></p>
+
+		<p>
+		이 프로그램은 Tomcat에서만 테스트 되었습니다. 테스트된 브라우저는 &quot;MSIE 6.0&quot;, &quot;Mozilla 1.7&quot;, &quot;Netscape 7.1&quot;, &quot;Opera 7.51&quot; 들이며, &quot;Windows 2000&quot;에서만 테스트 되었습니다.
+		</p>
+
+		<p><br/></p>
+
+		<p>
+		<font color="blue">주의</font>) 
+		애플릿이 서버 접속 시 두가지 접속방법중 JavaServer Page를 접속하는 방법을 사용할 때는 server.xml 파일의 설정값을 잘 처리해 주어야 합니다. 이중에 &quot;<b>maxProcessors</b>&quot;이라는 설정이 있는데,  만약  이 값이 75이면 유저가 75이상은 같이 접속할 수 없게 됩니다. 즉, 이 값을 클리이언트의 수에 맞게 적당히 조절하여야 합니다. 그리고, <u>&quot;<b>connectionTimeout</b>&quot; 란 속성값은  '15000'보다 커야합니다.</u> 만약 이값이 작으면 유저들이 글을 쓰지 않았을 경우 끈기는 현상이 존재할 수 있습니다.</p>
+		<p><br/></p>
+
+		<p><br/></p>
+
+		<p><br/></p> 
+    </section>
+
+  </body>
+
+</document>

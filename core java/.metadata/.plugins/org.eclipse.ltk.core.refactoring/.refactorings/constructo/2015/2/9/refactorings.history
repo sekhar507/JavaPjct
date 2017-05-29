@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;constructo/WebContent/WEB-INF/web.xml&apos; to &apos;SpringConfig.xml&apos;" description="Rename resource &apos;web.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/web.xml" name="SpringConfig.xml" stamp="1424988886814" updateReferences="true"/>
+</session>

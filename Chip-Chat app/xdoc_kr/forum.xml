@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<document>
+  <properties>
+    <title>Forum</title>
+    <author email="ljspring@daum.com">이재춘</author>
+  </properties>
+
+  <body>
+    <section name="Forum and ...">
+		<p>이곳에는 한글을 쓸 수가 없습니다.</p>
+		<p><a href="http://sourceforge.net/forum/?group_id=102772">Forums</a></p> 
+		<ol> 
+		  <li><a href="http://sourceforge.net/forum/forum.php?forum_id=354318">Help</a></li> 
+		  <li><a href="http://sourceforge.net/forum/forum.php?forum_id=354317">Open Discussion</a></li> 
+		</ol> 
+		<p><a href="http://sourceforge.net/tracker/?group_id=102772">Tracker</a></p> 
+		<ol> 
+		  <li><a href="http://sourceforge.net/tracker/?atid=632790&amp;group_id=102772&amp;func=browse">Bugs</a></li> 
+		  <li><a href="http://sourceforge.net/tracker/?atid=632791&amp;group_id=102772&amp;func=browse">Support Requests </a></li> 
+		  <li><a href="http://sourceforge.net/tracker/?atid=632792&amp;group_id=102772&amp;func=browse">Patches</a></li> 
+		  <li><a href="http://sourceforge.net/tracker/?atid=632793&amp;group_id=102772&amp;func=browse">Feature Requests</a></li> 
+		</ol> 
+    </section>
+
+	<section name="한글게시판">
+		<p><a href="http://mybbs.hanafos.com/bbs/List.asp?BBS_ID=1638930" target="_blank" >한글 게시판입니다.</a></p>
+    </section>
+</body>
+</document>

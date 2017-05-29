@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<document>
+
+<properties>
+	<title>TODO</title>
+	<author email="ljspring@daum.net">Lee Jae Chun</author>
+</properties>
+
+<body>
+	<section name="TODO list">
+		<p>
+			The following is a list of items that need to be completed in next version.
+		</p>
+
+		<subsection name="High priority"> 
+			<ul>
+				<li>
+					.
+				</li>
+			</ul>
+		</subsection>
+
+		<subsection name="Medium priority"> 
+			<ul>
+			</ul>
+		</subsection>
+
+		<subsection name="Low priority"> 
+			<ul>
+			</ul>
+		</subsection>
+	</section>
+<!--
+	<section name='Completed'>
+		<subsection name='Since 0.5 Alpha Release'>
+			<ul>
+			</ul>
+		</subsection>
+	</section>
+
+	<section name='Deprecated'>
+		<subsection name='Since 0.5 Alpha Release'>
+			<p>See the javadoc for details and replacements.</p>
+			<ul>
+			</ul>
+		</subsection>
+	</section>
+-->
+</body>
+</document>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>JSF Tutorial!</title>
+   <h:head>
+      <script type="text/javascript">
+         function showHiddenValue(){ 
+            alert(document.getElementById('jsfForm:hiddenField').value);	 
+         }
+      </script>
+   </h:head>
+</head>
+<body>
+<h2>h:inputHidden example</h2>
+<hr/>
+   <h:form id="jsfForm">
+   <h3>Get value from inputHidden field</h3>
+   <h:inputHidden value="Hello World" id="hiddenField" />
+   <h:commandButton value="Show Hidden Value" onclick="showHiddenValue()" />
+   </h:form> 
+</body>
+</html>

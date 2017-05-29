@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="80" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="153" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="82" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DIbycons/G:\/Java pjct\/core java\/spcorejars\/com.springsource.org.apache.log4j-1.2.15.jar&amp;lt;org.apache.log4j.net(JMSSink.class[JMSSink&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringExamples/src\/main\/java&amp;lt;com.mkyong.common{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=setter/C:\/Users\/HEMA\/Desktop\/spcorejars\/com.springsource.org.apache.log4j-1.2.15.jar&amp;lt;org.apache.log4j.net(JMSSink.class[JMSSink&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=HibernateSpringCrud/C:\/Users\/HEMA\/.m2\/repository\/antlr\/antlr\/2.7.7\/antlr-2.7.7.jar&amp;lt;antlr.debug.misc(ASTFrame.class[ASTFrame&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBC/F:\/mysql-connector-java-5.0.8-bin-g.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBC/src&amp;lt;hello{SimpleJDBC.java[SimpleJDBC&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringMVCForm/C:\/Users\/HEMA\/.m2\/repository\/taglibs\/standard\/1.1.2\/standard-1.1.2.jar&amp;lt;org.apache.taglibs.standard.lang.jstl.parser(ELParser.class[ELParser&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JDBCBatches/src&amp;lt;jdbc.batch{Batch.java[Batch&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="39" key="DIALOG_Y_ORIGIN"/>
+			<item value="391" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+</section>

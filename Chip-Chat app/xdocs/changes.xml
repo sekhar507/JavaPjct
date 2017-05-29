@@ -1,0 +1,34 @@
+<document>
+  <properties>
+    <title>Changes</title>
+    <author email="ljspring@daum.net">Lee Jae Chun.</author>
+  </properties>
+  <body>
+    <release version="1.0 Beta2" date="2004-06-30">
+      <action dev="ljspring" type="fix">
+        Fixed code for other browser : Netscape 7.1, Mozilla 1.7 and Opera 7.5.
+      </action>
+      <action dev="ljspring" type="fix">
+        Changed design of color choose box and imoticon choose box.
+      </action>
+	  <action dev="ljspring" type="add">
+        Added screenshots page into documents.
+      </action>
+	  <action dev="ljspring" type="add">
+        Added feature of maintenance of session in applet.
+      </action>
+	  <action dev="ljspring" type="add">
+        Added another method of connection from applet to server by opening new port.
+      </action>
+    </release>
+
+	<release version="1.0 Beta" date="2004-03-10">
+      <action dev="ljspring" type="add">
+        Added channel feature.
+      </action>
+      <action dev="ljspring" type="fix">
+        Changed imoticon's letters.
+      </action>
+    </release>
+  </body>
+</document>

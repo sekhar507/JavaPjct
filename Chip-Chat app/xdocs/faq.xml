@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<document>
+  <properties>
+    <title>Frequently Asked Questions</title>
+  </properties>
+  <body>
+  <section name="Frequently Asked Questions">
+    <p>
+      These questions and answers are user provided and should be searched
+	  before posting to the mailing lists.
+    </p>
+
+    <p><strong>Configure</strong></p>
+    <ol>
+      <li>
+        <a href="#how-to-configure">
+          How do I configure?
+        </a>
+      </li>
+    </ol>
+
+
+    <subsection name="Configure">
+      <dl>
+        <dt>
+          <a name="how-to-configure">
+            How do I configure?
+          </a>
+        </dt>
+        <dd>
+          ...
+        </dd>
+      </dl>
+    </subsection>
+  </section>
+</body>
+</document>

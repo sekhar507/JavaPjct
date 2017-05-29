@@ -1,0 +1,15 @@
+.classpath
+.project
+bin
+target
+maven.log
+reference
+build.properties
+diagrams
+.checkstyle
+velocity.log
+chipchat.tpr
+chipchat.tws
+Servlet.library
+build.xml
+TODO.txt

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<document>
+	<properties>
+		<title>Screenshots.</title>
+		<author email="ljspring@daum.net">Lee Jae Chun.</author>
+	</properties>
+
+	<body>
+		<section name="Screenshot">
+			<p>1. Login.</p>
+			<p>
+				<img src="images/sc_login.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>2. Choose Channel. </p>
+			<p>
+				<img src="images/sc_channel.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>3. Rooms : You can choose room or make room. </p>
+			<p>
+				<img src="images/sc_rooms.jpg" width="702" height="757" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>4. Chating.</p>
+			<p>
+				<img src="images/sc_chatting.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>5. Select Text Color. </p>
+			<p>
+				<img src="images/sc_color.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>6. Insert Imoticons. </p>
+			<p>
+				<img src="images/sc_imoticon.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>7. Administrate.</p>
+			<p>
+				<img src="images/sc_administrate.jpg" width="702" height="601" border="1"/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>
+				<br/>
+			</p>
+			<p>
+				<br/>
+			</p>
+		</section>
+	</body>
+</document>

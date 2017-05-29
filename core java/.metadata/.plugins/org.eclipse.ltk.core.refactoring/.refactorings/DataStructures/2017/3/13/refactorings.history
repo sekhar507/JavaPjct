@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.java.datastructures.ListDemo&apos; to &apos;Mylist&apos;&#x0D;&#x0A;- Original project: &apos;DataStructures&apos;&#x0D;&#x0A;- Original element: &apos;org.java.datastructures.ListDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;org.java.datastructures.Mylist&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ListDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.java.datastructures{ListDemo.java[ListDemo" matchStrategy="1" name="Mylist" qualified="false" references="true" similarDeclarations="false" stamp="1490894699290" textual="false" version="1.0"/>
+</session>

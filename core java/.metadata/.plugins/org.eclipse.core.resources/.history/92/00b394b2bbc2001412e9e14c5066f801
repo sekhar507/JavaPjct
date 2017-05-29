@@ -1,0 +1,13 @@
+package org.core.java;
+
+public class Trail {
+	private boolean x;
+	public static void main(String args[])
+	{
+	
+
+	Trail obj=new Trail(2);
+	
+	}
+
+}

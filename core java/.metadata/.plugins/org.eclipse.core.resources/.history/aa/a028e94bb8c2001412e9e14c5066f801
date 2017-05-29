@@ -1,0 +1,15 @@
+package org.core.java;
+
+public class Trail {
+	private boolean x;
+
+	public boolean X() {
+		return x;
+	}
+
+	public void setX(boolean x) {
+		this.x = x;
+	}
+	
+
+}

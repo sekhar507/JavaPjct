@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<document>
+  <properties>
+    <title>Demo.</title>
+    <author email="ljspring@daum.net">Lee Jae Chun.</author>
+  </properties>
+
+  <body>
+    <section name="Demo">
+      <p>
+		<a href="http://math.uos.ac.kr/chipchat/" target="_blank">Click here to open demo site.</a>
+      </p>
+    </section>
+</body>
+</document>

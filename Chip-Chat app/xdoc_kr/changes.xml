@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<document>
+  <properties>
+    <title>Changes</title>
+    <author email="ljspring@daum.net">이재춘</author>
+  </properties>
+  <body>
+    <release version="1.0 Beta2" date="2004-06-30">
+      <action dev="ljspring" type="fix">
+        Netscape 7.1과 Mozilla 1.7, Opera 7.5버젼에서 작동이 되도록 소스 수정.
+      </action>
+      <action dev="ljspring" type="fix">
+        Color변화, Imoticon선택박스의 모양 변경.
+      </action>
+	  <action dev="ljspring" type="add">
+        웹페이지에 Screenshots페이지 추가.
+      </action>
+	  <action dev="ljspring" type="add">
+        애플릿에 세션 유지 기능 추가. 세션이 끈어져 다시 로그온해야하는 버그 수정.
+      </action>
+	  <action dev="ljspring" type="add">
+        서버에 포트를 열어 애플릿에서 접속하는 방식 추가.
+      </action>
+    </release>
+
+	<release version="1.0 Beta" date="2004-03-10">
+      <action dev="ljspring" type="add">
+        채널을 선택하여 들어갈 수 있도록 함.
+      </action>
+      <action dev="ljspring" type="fix">
+        이모티콘 글자 바꿈.
+      </action>
+    </release>
+  </body>
+</document>

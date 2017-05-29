@@ -1,0 +1,10 @@
+package org.core.java;
+
+public class Trail {
+	private boolean x;
+
+	Trail obj=new Trail();
+	
+	
+
+}

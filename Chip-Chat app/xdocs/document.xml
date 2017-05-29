@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<document>
+  <properties>
+    <title>Document</title>
+    <author email="ljspring@daum.net">Lee Jae Chun</author>
+  </properties>
+
+  <body>
+
+    <section name="How to install.">
+		<p>You need JavaServer Page engine such as Tomcat.</p>
+		<p>In <strong>Tomcat</strong> server.</p> 
+		<ol> 
+		  <li>Download war file in <A HREF="http://sourceforge.net/project/showfiles.php?group_id=102772">download page</A>. And rename to 'chipchat.war'.</li> 
+		  <li>Locate 'chipchat.war' file in <i>webapp</i> directory.</li> 
+		  <li>Restart Tomcat.</li> 
+		  <li>Open web page <u>http://127.0.0.1/chipchat/</u> or <u>http://127.0.0.1:8080/chipchat/</u> in web browser.</li> 
+		</ol> 
+    </section>
+
+    <section name="How to compile source.(For developer.)">
+		<p>You need <strong>j2sdk</strong>(<a href="http://java.sun.com" target="_blank">http://java.sun.com</a>) and Maven(<a href="http://maven.apache.org" target="_blank">http://maven.apache.org</a>) to compile source</p>
+		<p>1. Download source</p>
+		<blockquote>
+		  <p>Download source in <A HREF="http://sourceforge.net/project/showfiles.php?group_id=102772">download page</A> and unzip file. Or source can be got by checkout from CVS server.(<A HREF="http://sourceforge.net/cvs/?group_id=102772">Cvs documents</A>) </p>
+		</blockquote>
+		<p>2. Compile</p>
+		<blockquote>
+		  <p>Just type 'maven' in source directory.</p>
+		  <p>Compiled war file is located in 'target/chipchat.war' and documents are locate in 'target/docs' directory.</p>
+		</blockquote>
+    </section>
+
+  </body>
+</document>

@@ -1,0 +1,95 @@
+<project>
+	<pomVersion>3</pomVersion>
+
+	<id>chipchat</id>
+    <name>chipchat</name>
+
+	<currentVersion>1.0 Beta2</currentVersion>
+
+	<organization>
+		<name>Mr.Lee</name>
+		<url>http://myhome.hanafos.com/~ljspring/</url>
+		<logo>/images/mrlee.jpg</logo>
+	</organization>
+
+	<logo>/images/chipchat-logo.jpg</logo>
+
+	<inceptionYear>2003</inceptionYear>
+
+	<description>Chipchat is web-based chat engine written in Java.</description>
+	<shortDescription>Chipchat is web-based chat engine written in Java.</shortDescription>
+
+
+	<versions/>
+    
+	<branches/>
+
+	<url>http://${pom.artifactId}.sourceforge.net</url>
+	<issueTrackingUrl>http://sourceforge.net/tracker/?group_id=102772</issueTrackingUrl>
+	<siteAddress>${pom.artifactId}.sourceforge.net</siteAddress>
+	<siteDirectory>/home/groups/${pom.artifactId.substring(0,1)}/${pom.artifactId.substring(0,2)}/${pom.artifactId}/htdocs/</siteDirectory>
+	<distributionDirectory>/home/groups/${pom.artifactId.substring(0,1)}/${pom.artifactId.substring(0,2)}/${pom.artifactId}/htdocs/distributions/</distributionDirectory>
+
+	<repository>
+		<connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/${pom.artifactId}:${pom.artifactId}</connection>
+		<url>http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/${pom.artifactId}/${pom.artifactId}/</url>
+	</repository>
+
+    <mailingLists>
+    </mailingLists>
+
+	<developers>
+		<developer>
+			<name>Lee Jae Chun</name>
+			<id>ljspring</id>
+			<email>ljspring@daum.net</email>
+			<organization></organization>
+			<roles>
+				<role>Java Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>nonResolvedGroupId</groupId>
+            <artifactId>servlet</artifactId>
+            <jar>lib\servlet.jar</jar>
+            <type>jar</type>
+            <properties/>
+        </dependency>
+        <dependency>
+            <groupId>nonResolvedGroupId</groupId>
+            <artifactId>jaws_netscape_pakage_only</artifactId>
+            <jar>lib\jaws_netscape_pakage_only.jar</jar>
+            <type>jar</type>
+            <properties/>
+        </dependency>
+    </dependencies>
+
+	<reports>
+		<report>maven-license-plugin</report>
+		<report>maven-changes-plugin</report>
+	</reports>
+
+    <build>
+        <sourceDirectory>src/java</sourceDirectory>
+
+		<resources>
+			<resource>
+				<directory>src/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
+        <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
+
+        <unitTest>
+            <includes>
+                <include>**/*Test.java</include>
+            </includes>
+        </unitTest>
+    </build>
+</project>

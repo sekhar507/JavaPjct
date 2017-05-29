@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.org.Key&apos; to &apos;KeyPressed&apos;&#x0D;&#x0A;- Original project: &apos;KeyPressed&apos;&#x0D;&#x0A;- Original element: &apos;com.org.Key&apos;&#x0D;&#x0A;- Renamed element: &apos;com.org.KeyPressed&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Key&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.org{Key.java[Key" matchStrategy="1" name="KeyPressed" qualified="false" references="true" similarDeclarations="false" stamp="1447605526536" textual="false" version="1.0"/>
+</session>

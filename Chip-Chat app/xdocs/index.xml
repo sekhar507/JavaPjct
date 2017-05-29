@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<document>
+
+  <properties>
+    <title>Home</title>
+    <author email="ljspring@daum.net">Lee Jae Chun</author>
+  </properties>
+
+  <body>
+    <section name="Introduction">
+		<p>
+		Chipchat is a web chat program written in java language. It is a web application and needs a web server such as Tomcat. This does not use http refresh feature, but it use appet for communication with server and javascript for updating screen. So screen is updated smooth. There is no need to install program in client. And if web browser support applet and css2.1 well. It work well in any OS and Web browser.
+		</p>
+
+		<p>Last version : v1.0 Beta2 ( Jun 30, 2003 )</p>
+
+		<p><br/></p>
+		<p>
+		There is two way that applet communicate with server. First, applet communicate with server by new server port. And the other way is communication by web port such as 80. Basically it setted as first way, but you can use second way when it is not permitted by any reason such as firewall.
+		</p>
+		<p><br/></p>
+
+		<p>&quot;Java-script&quot;, &quot;Live Connection&quot; and &quot;Applet&quot; were used to make chipchat. </p>
+
+		<p><br/></p>
+
+		<p>
+			Currently it supports several functions. <BR/>
+			<ol>
+				<li>Administration fuction such as &quot;Bang&quot; &quot;Keep Quiet&quot;. etc.</li>
+				<li>Icon Imoticon.</li>
+				<li>Keyword symbol in text that it will change to meaning text.
+				(When client input &quot;Hellow /^^/&quot;. It will show as &quot;Hellow &lt;img src=&#039;image/smile.gif&#039;&gt;&quot;)</li>
+			</ol>
+		</p>
+
+		<p><br/></p>
+
+		<p>
+			This program is tested on only Tomcat. Tested internet browser is &quot;MSIE 6.0&quot;, &quot;Mozilla 1.7&quot;, &quot;Netscape 7.1&quot; and &quot;Opera 7.51&quot; on &quot;Windows 2000&quot;.
+		</p>
+
+		<p><br/></p>
+
+		<p>
+		<font color="blue">Caution</font>) If applet cmmunicate with web port. You have to take care of server.xml file in tomcat. In this file, &quot;<b>maxProcessors</b>&quot; attribute has special mean in chipchat. If this value is 75. It means that maximun number of client users who can connect server is 74  at the same time.<BR/>And <u>&quot;<b>connectionTimeout</b>&quot; value must greater than '15000'.</u> If this value is lower than 15000. Connection will be broken.
+		</p>
+
+
+		<p><br/></p>
+		<p><br/></p>
+		<p><br/></p> 
+    </section>
+
+  </body>
+
+</document>

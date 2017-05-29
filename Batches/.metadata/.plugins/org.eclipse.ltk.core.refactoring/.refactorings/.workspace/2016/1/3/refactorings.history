@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringBatchExample&apos; to &apos;SpringBatchExampleCSVTOSQL&apos;" description="Rename resource &apos;SpringBatchExample&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringBatchExample" name="SpringBatchExampleCSVTOSQL" stamp="1452385912687" updateReferences="true"/>
+</session>
